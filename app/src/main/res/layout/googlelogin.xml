@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#091932"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play"
+        android:id="@+id/icon_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/loginpanel1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Bisque"
+        android:text="PAPMOStreamingTV"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/papmo_tv"
+        android:layout_below="@+id/icon_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_sign_in"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/papmo_tv"
+        android:layout_marginTop="@dimen/loginpanel2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versi Alpha"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/loginpanel3"
+        android:layout_below="@+id/btn_sign_in"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

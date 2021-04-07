@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="button_channel_width">111dp</dimen>
+    <dimen name="button_channel_height">111dp</dimen>
+
+    <dimen name="category_channel_width">231dp</dimen>
+
+    <dimen name="button_channel_margin">1dp</dimen>
+
+    <dimen name="drawer_pane_width">256dp</dimen>
+
+
+    <dimen name="loginpanel1">156dp</dimen>
+    <dimen name="loginpanel2">32dp</dimen>
+    <dimen name="loginpanel3">36dp</dimen>
+
+</resources>

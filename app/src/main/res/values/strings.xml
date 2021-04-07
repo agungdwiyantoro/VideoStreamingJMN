@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PAPMOStreamingTV</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="drawer_opened">opened</string>
+    <string name="drawer_closed">closed</string>
+    <string name="openDrawer">opened</string>
+    <string name="closeDrawer">closed</string>
+    <string name="share_twitter">twitter</string>
+    <string name="share_facebook">facebook</string>
+    <string name="share_sms">""</string>
+    <string name="share_email_gmail">""</string>
+    <string name="share_email_subject">""</string>
+    <string name="share_email_native">""</string>
+    <string name="share_chooser_text">Send Message...</string>
+    <string name="Favorite_message">Stop running this script?
+    A script on this page is causing Internet Explorer to run slowly. If it continues to run,
+    your computer might become unresponsive</string>
+    <string name="kategori">no channel is available</string>
+    <string name="favorite">you are not yet added channel, hold on to one of the icon channels in MY ROOM to open the favorite option</string>
+
+</resources>

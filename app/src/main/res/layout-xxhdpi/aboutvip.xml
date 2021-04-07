@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#091932"
+    android:clickable="true">
+
+    <!--HEADER-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#0f2444"
+        android:paddingLeft="23dp"
+        android:paddingRight="23dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selectedstate"
+            android:layout_centerVertical="true"
+            android:id="@+id/back"/>
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/tentangvip"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/bungkus"
+        android:layout_marginTop="@dimen/AboutVIPpanel1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/AboutVIPpanel3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vipabu"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/AboutVIPpanel2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/freeuser" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vipemas"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/AboutVIPpanel2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pelangganjmn" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTENT VIP BELUM DIBUAT"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+      />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Sekarang"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/AboutVIPpanel5"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goselectedstate"
+        android:layout_marginTop="@dimen/AboutVIPpanel2"
+        android:layout_gravity="center"
+        android:id="@+id/goAboutVIP"/>
+
+</LinearLayout>

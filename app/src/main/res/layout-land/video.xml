@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/Video_View"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:id="@+id/animasi"
+        android:visibility="invisible"
+        android:background="@drawable/video_animasi">
+    </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:background="@color/Transsilver"
+            android:id="@+id/settings">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/table_quality"
+                android:visibility="gone"
+                >
+
+                <TableRow
+                    android:paddingBottom="10dp">
+                    <TextView
+                        android:id="@+id/q360p"
+                        android:text="360p"
+                        android:textColor="@color/White"/>
+                </TableRow>
+
+                <TableRow
+                    android:paddingBottom="10dp">
+                    <TextView
+                        android:id="@+id/q240p"
+                        android:text="240p"
+                        android:textColor="@color/White"/>
+                </TableRow>
+
+                <TableRow
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/q160p"
+                        android:text="160p"
+                        android:textColor="@color/White" />
+
+                </TableRow>
+
+
+            </TableLayout>
+            <ImageButton
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ico_gear"
+                android:background="@drawable/gear"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/ico_paused" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/ico_play" />
+
+
+</FrameLayout>

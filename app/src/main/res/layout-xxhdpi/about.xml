@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#091932"
+    android:clickable="true">
+
+    <!--HEADER-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#0f2444"
+        android:paddingLeft="23dp"
+        android:paddingRight="23dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selectedstate"
+            android:layout_centerVertical="true"
+            android:id="@+id/back"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="PAPMOStreamingTV"
+            android:textSize="20dp"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+        <!--
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/selectedstatekotak"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/kotakAbout"/>
+            -->
+    </RelativeLayout>
+    <!---->
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTENT ABOUT BELUM DIBUAT"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mengenal PAPMOStreamingTV"
+        android:textColor="@color/White"
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/aboutpanel4"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goselectedstate"
+        android:id="@+id/tombolgo"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/aboutpanel5"/>
+</LinearLayout>

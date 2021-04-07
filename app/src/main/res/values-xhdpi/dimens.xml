@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="button_channel_width">177dp</dimen>
+    <dimen name="button_channel_height">177dp</dimen>
+
+    <dimen name="category_channel_width">369dp</dimen>
+
+    <dimen name="button_channel_margin">3dp</dimen>
+</resources>

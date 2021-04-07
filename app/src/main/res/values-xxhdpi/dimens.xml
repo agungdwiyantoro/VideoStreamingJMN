@@ -1,0 +1,36 @@
+<resources>
+    <dimen name="button_channel_width"> 230dp</dimen>
+    <dimen name="button_channel_height">230dp</dimen>
+
+    <dimen name="category_channel_width">510dp</dimen>
+
+    <dimen name="button_channel_margin">5dp</dimen>
+
+    <dimen name="drawer_pane_width">287dp</dimen>
+
+
+    <!--Splash Screen-->
+    <dimen name="loginpanel1">175dp</dimen>
+    <dimen name="loginpanel2">42dp</dimen>
+    <dimen name="loginpanel3">40dp</dimen>
+
+    <!--Pesan Untuk JMN-->
+    <dimen name="pesanpanel1">11dp</dimen>
+    <dimen name="pesanpanel2">210dp</dimen>
+    <dimen name="pesanpanel3">17dp</dimen>
+
+    <!--About JMN-->
+    <dimen name="aboutpanel1">20dp</dimen>
+    <dimen name="aboutpanel2">3dp</dimen>
+    <dimen name="aboutpanel3">6dp</dimen>
+    <dimen name="aboutpanel4">22dp</dimen>
+    <dimen name="aboutpanel5">9dp</dimen>
+
+    <!--About VIP-->
+    <dimen name="AboutVIPpanel1">21dp</dimen>
+    <dimen name="AboutVIPpanel2">11dp</dimen>
+    <dimen name="AboutVIPpanel3">30dp</dimen>
+    <dimen name="AboutVIPpanel4">33dp</dimen>
+    <dimen name="AboutVIPpanel5">93dp</dimen>
+
+</resources>

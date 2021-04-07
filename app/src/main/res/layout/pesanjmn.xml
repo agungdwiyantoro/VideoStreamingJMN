@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#091932"
+
+    android:clickable="true">
+
+    <!--HEADER-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#0f2444"
+        android:paddingLeft="23dp"
+        android:paddingRight="23dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:background="@drawable/selectedstate"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Pesan Untuk Developer"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+<!--
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/selectedstatekotak"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/kotakMyroom"/>
+              -->
+
+
+    <!---->
+
+    <TextView
+        android:background="@color/CornflowerBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bantu kami meningkatkan kualitas aplikasi ini dengan mengirim feedback!"
+        android:textColor="@color/White"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hubungisekarang"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/pesanpanel2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goselectedstate"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/pesanpanel3"
+        android:id="@+id/GoPesan"/>
+
+</LinearLayout>
